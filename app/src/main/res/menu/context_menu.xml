@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notifsetting"
+        android:icon="@drawable/ic_activate"
+        android:visible="true"
+        android:title="Aktivasi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/exitg"
+        android:icon="@drawable/icexit"
+        android:title="Keluar"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_database_singkatan"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="Tambah Singkatan"
+        app:showAsAction="never" />
+    <item
+        android:title="Hapus Pesan"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/hapus_pesanW"
+                android:title="Hapus Pesan Whatsapp"
+                android:icon="@drawable/ic_baseline_delete_forever_24"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/hapus_pesanT"
+                android:title="Hapus Pesan Telegram"
+                android:icon="@drawable/ic_baseline_delete_forever_24"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+        <item
+            android:title="Kontrol Ucapan"
+            app:showAsAction="never">
+            <menu>
+                <item
+                    android:id="@+id/ttson"
+                     android:title="Aktifkan Ucapan"
+                    android:icon="@drawable/ic_up"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/ttsoff"
+                    android:title="Matikan Ucapan"
+                    android:icon="@drawable/ic_off"
+                    app:showAsAction="never" />
+            </menu>
+        </item>
+</menu>

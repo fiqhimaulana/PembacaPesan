@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_singkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/in_singkatan"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:hint="Kata Singkatan" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_kata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/in_kata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kata Yang Dimaksud" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+</FrameLayout>

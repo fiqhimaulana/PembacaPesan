@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pembaca Pesan</string>
+
+
+    <string name="next">LANJUT</string>
+    <string name="skip">ABAIKAN</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_desc">Samsung-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_2_desc">Xiaomi-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_3_desc">OPPO-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_4_desc">vivo-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_5_desc">realme-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_6_desc">android one-Pengaturan --> Layanan --> Akses Notifikasi </string>
+    <string name="slide_7_desc">Pengaturan --> Aksesibilitas --> Keluaran Text-to-Speech</string>
+    <string name="slide_3_title">Diet Chart</string>
+<!--    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>-->
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="speech_toggle_on">AKTIFKAN</string>
+    <string name="speech_toggle_off">BERHENTI</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607773</color>
+    <color name="colorPrimaryDark">#6E6E6E</color>
+    <color name="colorAccent">#2C2C2C</color>
+    <color name="blue_semi_transparent_pressed">#DA000000</color>
+    <color name="colorRipple">#F9403C3E</color>
+    <color name="asfgj">#0B0719</color>
+    <color name="gray">#797684</color>
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#bf145c</color>
+    <color name="bg_slider_screen3">#203d8c</color>
+    <color name="bg_slider_screen4">#f4b241</color>
+    <color name="bg_slider_screen5">#bf145c</color>
+    <color name="bg_slider_screen6">#203d8c</color>
+    <color name="bg_slider_screen7">#f4b241</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#0e1e49</color>
+    <color name="dot_inactive_screen2">#0e1e49</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+    <color name="dot_inactive_screen4">#0e1e49</color>
+    <color name="dot_inactive_screen5">#0e1e49</color>
+    <color name="dot_inactive_screen6">#0e1e49</color>
+    <color name="dot_inactive_screen7">#0e1e49</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#D32F2F</color>
+    <color name="dot_active_screen2">#00796B</color>
+    <color name="dot_active_screen3">#7B1FA2</color>
+    <color name="dot_active_screen4">#AFB42B</color>
+    <color name="dot_active_screen5">#1976D2</color>
+    <color name="dot_active_screen6">#F57C00</color>
+    <color name="dot_active_screen7">#FFFFFF</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen4</item>
+        <item>@color/dot_active_screen5</item>
+        <item>@color/dot_active_screen6</item>
+        <item>@color/dot_active_screen7</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_inactive_screen4</item>
+        <item>@color/dot_inactive_screen5</item>
+        <item>@color/dot_inactive_screen6</item>
+        <item>@color/dot_inactive_screen7</item>
+    </array>
+</resources>
